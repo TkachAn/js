@@ -1,0 +1,12 @@
+const a = 'js2';
+console.log(a);
+let quan = prompt('кол-во');
+console.log(quan);
+console.log(typeof quan);
+quan = Number(quan);
+console.log(quan);
+console.log(typeof quan);
+let quanInt = Number.parseInt(quan);
+console.log(quan);
+console.log(typeof quan);
+console.log('остаток: ', quan-quanInt);
